@@ -1,0 +1,185 @@
+/*	
+	Doctype 		: Stylesheet
+	Date Created	: 25 April 2013
+	Author			: Sabbana Azmi
+	Email			: sabbana.a7@gmail.com
+*/
+
+body{
+	font-family:georgia;
+	background-color:#e7e7e7;
+	font-size:12px;
+	color:#222;
+	margin:0;
+}
+#top{
+	height:50px;
+	background-color:#222;
+}
+#wrapper{
+	width:1000px;
+	margin:auto;
+	border-right:solid 10px #ddd;
+	border-left:solid 10px #ddd;
+	background-color:#fff;
+}
+#header{
+	padding:10px;
+	border-bottom:solid 1px #ddd;
+	font-weight:bold;
+}
+
+#header .big{
+	font-size:3em;
+	font-family:georgia;
+	color:#666;
+}
+#header .little{
+	font-size:1em;
+	font-family:arial;
+	padding-left:10px;
+	color:#666;
+}
+
+#navigasi{
+	width:25%;
+	float:left;
+}
+
+#navigasi div{
+	margin:10px;
+}
+
+#navigasi ul{
+	margin:0; 
+	padding:0;
+}
+
+#navigasi ul li{
+	list-style:none; /* menghilangkan bullet list */
+	font-family:arial;
+}
+
+.menu a{
+	padding:10px;
+	display:block;
+	text-decoration:none; /* menghilangkan garis bawah link */
+	border-bottom:dotted 1px #ddd;
+	color:#1B7AA9;
+	font-weight:bold;	
+}
+
+#content{
+	width:74%;
+	float:left;
+	border-left:solid 1px #ddd;
+}
+#content div{
+	margin:10px;
+}
+
+.form{
+	font-size:12px;
+	width:90%;
+}
+.formlist{
+	font-size:15px;
+	width:90%;
+}
+
+.form th{
+	text-align:left;
+	font-size:1.5em;
+	padding-bottom:10px;
+	border-bottom:solid 1px #ddd;
+	color:;
+}
+.form td{
+	border-bottom:solid 1px #f7f7f7;
+}
+
+.list{
+	border:solid 0px #ddd;
+	width:100%;
+	font-size:12px;
+	border-radius:10px;
+}
+.list th{
+	text-align:left;
+	font-weight:bold;
+	border-bottom:solid 2px #aaa;
+	padding:10px;
+}
+.list td{
+	border-bottom:solid 1px #ddd;
+	border-left:solid 1px #ddd;
+	padding:10px;
+}
+.list tr:last-child > td{
+	border-bottom:none;
+}
+.list td:first-child{ /* membuat colom pertama dari table dengan class list tidak ada garis kiri (CSS 3) */
+	border-left:none;
+}
+.list tr:nth-child(even){  /* membuat baris genap dari table dengan class list berwarna #f7f7f7 (CSS 3) */
+	background-color:#F7F7F7;
+}
+.list tr:hover > td{  /* membuat colom pertama dari table dengan class list ketika mouse over berwarna (CSS 3) */
+	background-color:#DEF8E6;
+}
+
+input, select, textarea{
+	padding:5px;
+	border:solid 1px #ccc;
+	background-color:#f7f7f7;
+	border-radius:3px;
+}
+
+p{
+	line-height:20px;
+}
+
+.ket{
+	margin-left:20px;
+}
+.point{
+	color:#BF9F22;
+}
+.list a{
+	text-decoration:none;
+	color:#A08834;
+}
+
+#content a{
+	text-decoration:none;
+	color:#A08834;
+}
+
+.script{
+	padding:10px;
+	border:solid 1px #aaa;
+	background-color:#e7e7e7;
+	font-family:'courier new';
+	border-radius:5px;
+}
+
+
+
+
+
+
+
+
+
+
+#footer{
+	clear:both;
+	padding:10px;
+	border-top:solid 1px #ddd;
+	color:#666;
+}
+
+
+h1, h2, h3{
+	font-family:#calisto;
+}
